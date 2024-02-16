@@ -2,19 +2,8 @@ var title = document.querySelector('.title');
 var courseFeatureElements = document.querySelectorAll('.course-feature');
 var button = document.querySelector('button');
 
-navigator.serviceWorker.register('/sw.js');
+navigator.serviceWorker.register('./sw.js');
 
-// if ('serviceWorker' in navigator) {
-//   navigator.serviceWorker.register('/sw.js')
-//     .then(function(registration) {
-//       console.log('Service Worker registered with scope:', registration.scope);
-//     })
-//     .catch(function(error) {
-//       console.error('Service Worker registration failed:', error);
-//     });
-// } else {
-//   console.error('Service Worker is not supported in this browser.');
-// }
 function animate() {
   title.classList.remove('animate-in');
   for (var i = 0; i < courseFeatureElements.length; i++) {
@@ -72,4 +61,5 @@ window.addEventListener('beforeinstallprompt', function(event) {
   deferredPrompt = event;
   return false;
 });
+
 
