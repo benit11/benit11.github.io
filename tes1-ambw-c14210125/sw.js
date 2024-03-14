@@ -17,7 +17,7 @@ var STATIC_FILES = [
     'src/js/fetch.js',
     'src/css/index.css',
     'src/css/navbar.css',
-
+    'src/images/main-image.jpg',
     'images/icons/icon-72x72.png',
     'images/icons/icon-96x96.png',
     'images/icons/icon-128x128.png',
