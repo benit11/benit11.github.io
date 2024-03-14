@@ -8,13 +8,16 @@ var STATIC_FILES = [
     '/',
     '/favicon.ico',
     'index.html',
+    'navbar.html',
     'offline.html',
     'src/js/app.js',
     'src/js/feed.js',
     'src/js/idb.js',
     'src/js/promise.js',
     'src/js/fetch.js',
-    'src/css/style.css',
+    'src/css/index.css',
+    'src/css/navbar.css',
+
     'images/icons/icon-72x72.png',
     'images/icons/icon-96x96.png',
     'images/icons/icon-128x128.png',
@@ -23,7 +26,6 @@ var STATIC_FILES = [
     'images/icons/icon-192x192.png',
     'images/icons/icon-384x384.png',
     'images/icons/icon-512x512.png',
-    'asset/offline.png'
 ];
 
 // function trimCache(cacheName, maxItems) {
@@ -78,7 +80,7 @@ function isInArray(string, array) {
 }
 
 self.addEventListener('fetch', function (event) {
-  var url = "https://tes1-ambw-c14210065-c114e-default-rtdb.asia-southeast1.firebasedatabase.app/posts";
+  var url = "https://tes1-ambw-c14210125-default-rtdb.asia-southeast1.firebasedatabase.app/posts";
   if (event.request.url.indexOf(url) > -1) {
     event.respondWith(fetch(event.request)
       .then(function (res) {
