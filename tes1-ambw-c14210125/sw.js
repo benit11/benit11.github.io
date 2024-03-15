@@ -5,13 +5,13 @@ importScripts('src/js/utility.js');
 var CACHE_STATIC_NAME = 'static-v18';
 var CACHE_DYNAMIC_NAME = 'dynamic-v2';
 var STATIC_FILES = [
-    '/tes1-ambw-c14210125',
-    '/favicon.ico',
+    '/',
+    'favicon.ico',
     'index.html',
     'navbar.html',
     'offline.html',
     'images/home-img.png',
-    'images/waves.svg',
+    'src/waves.svg',
     'images/icons/icon-72x72.png',
     'images/icons/icon-96x96.png',
     'images/icons/icon-128x128.png',
