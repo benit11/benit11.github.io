@@ -27,7 +27,7 @@ var STATIC_FILES = [
     'src/js/fetch.js',
     'src/css/index.css',
     'src/css/navbar.css',
-    
+  
 ];
 
 // function trimCache(cacheName, maxItems) {
