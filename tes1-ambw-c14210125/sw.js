@@ -10,13 +10,6 @@ var STATIC_FILES = [
     'index.html',
     'navbar.html',
     'offline.html',
-    'src/js/app.js',
-    'src/js/feed.js',
-    'src/js/idb.js',
-    'src/js/promise.js',
-    'src/js/fetch.js',
-    'src/css/index.css',
-    'src/css/navbar.css',
     'images/home-img.png',
     'images/waves.svg',
     'images/icons/icon-72x72.png',
@@ -27,6 +20,14 @@ var STATIC_FILES = [
     'images/icons/icon-192x192.png',
     'images/icons/icon-384x384.png',
     'images/icons/icon-512x512.png',
+    'src/js/app.js',
+    'src/js/feed.js',
+    'src/js/idb.js',
+    'src/js/promise.js',
+    'src/js/fetch.js',
+    'src/css/index.css',
+    'src/css/navbar.css',
+    
 ];
 
 // function trimCache(cacheName, maxItems) {
