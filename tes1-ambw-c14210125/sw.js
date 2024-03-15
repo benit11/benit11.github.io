@@ -11,7 +11,7 @@ var STATIC_FILES = [
     'navbar.html',
     'offline.html',
     'images/home-img.png',
-    'src/waves.svg',
+    'src/css/waves.svg',
     'images/icons/icon-72x72.png',
     'images/icons/icon-96x96.png',
     'images/icons/icon-128x128.png',
