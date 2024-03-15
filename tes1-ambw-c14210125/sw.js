@@ -6,7 +6,7 @@ var CACHE_STATIC_NAME = 'static-v18';
 var CACHE_DYNAMIC_NAME = 'dynamic-v2';
 var STATIC_FILES = [
     '/',
-    './favicon.ico',
+    '/favicon.ico',
     'index.html',
     'navbar.html',
     'offline.html',
@@ -18,15 +18,15 @@ var STATIC_FILES = [
     'src/css/index.css',
     'src/css/navbar.css',
     'images/home-img.png',
-    '/images/waves.svg',
-    '/images/icons/icon-72x72.png',
-    '/images/icons/icon-96x96.png',
-    '/images/icons/icon-128x128.png',
-    '/images/icons/icon-144x144.png',
-    '/images/icons/icon-152x152.png',
-    '/images/icons/icon-192x192.png',
-    '/images/icons/icon-384x384.png',
-    '/images/icons/icon-512x512.png',
+    'images/waves.svg',
+    'images/icons/icon-72x72.png',
+    'images/icons/icon-96x96.png',
+    'images/icons/icon-128x128.png',
+    'images/icons/icon-144x144.png',
+    'images/icons/icon-152x152.png',
+    'images/icons/icon-192x192.png',
+    'images/icons/icon-384x384.png',
+    'images/icons/icon-512x512.png',
 ];
 
 // function trimCache(cacheName, maxItems) {
