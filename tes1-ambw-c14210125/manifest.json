@@ -5,8 +5,8 @@
   "background_color": "#fff",
   "display": "standalone",
   "orientation": "portrait",
-  "scope": "/",
-  "start_url": "/",
+  "scope": "/tes1-ambw-c14210125",
+  "start_url": "/tes1-ambw-c14210125",
   "icons": [
     {
       "src": "images/icons/icon-72x72.png",
